@@ -1,0 +1,86 @@
+---
+title: "Rhodochrosite Data Documentation at 72 °C"
+author: "Lawal, J.K"
+date: "2026-11-11"
+output: html_document
+---
+# Overview
+
+This dataset contains carbon and oxygen isotope measurements and
+calculated CO2 yields from one instrument run of rhodochrosite
+(MnCO3) samples reacted with phosphoric acid at 72 °C. The samples
+were prepared in two grain-size fractions: less than 74 µm and
+149–250 µm. They were analyzed after different reaction durations.
+
+The workbook also includes measurements of carbonate reference
+materials used for isotope normalization and assessment of
+analytical performance.
+
+# Specifications table
+
+| Item | Description |
+|------|-------------|
+| Subject | Stable isotope geochemistry |
+| Data type | Carbon and oxygen isotope measurements and calculated CO2 yields |
+| Material | Rhodochrosite (MnCO3) |
+| Reaction temperature | 72 °C |
+| Grain-size fractions | Less than 74 µm and 149–250 µm |
+| Data format | Excel workbook (.xlsx) |
+| Data collection method | Phosphoric-acid digestion followed by isotope analysis |
+
+# Data description
+
+The Excel workbook contains measurements from one instrument run
+of rhodochrosite samples reacted with phosphoric acid at 72 °C.
+It also contains reference-material measurements and calculations
+used to normalize isotope values and estimate CO2 yield.
+
+The main information in the workbook includes:
+
+- Sample identifiers and grain-size labels.
+- Acid injection dates and reaction durations.
+- Instrument measurements and sample preparation values.
+- Carbon isotope values (δ13C).
+- Oxygen isotope values of the released CO2 (δ18O CO2).
+- Peak-area information and calculated CO2 yields.
+- Measurements of reference materials, including NBS 18,
+  NBS 19, and Carrara.
+  
+# Data dictionary
+
+| Column in workbook | Description | Unit |
+|--------------------|-------------|------|
+| Identifier 1 | Sample or reference-material name and replicate label | Text |
+| Identifier 2 | Identifier used in the analytical sequence | Number |
+| Time Code | Recorded time associated with the analysis | Date and time |
+| Acis injection date | Recorded date and time of acid injection | Date and time |
+| d13C (VPDB) | Normalized carbon isotope value | ‰ VPDB |
+| d18OCO2 (VPDB) | Normalized oxygen isotope value of the released CO2 | ‰ VPDB |
+| Sum area all | Sum of measured peak areas |
+| percent | Calculated CO2 yield or recovery | % |
+
+# Experimental design, materials and methods
+
+Rhodochrosite (MnCO3) samples were prepared in two grain-size
+fractions: less than 74 µm and 149–250 µm. Samples were reacted
+with phosphoric acid at 72 °C for different reaction durations.
+
+The carbon dioxide (CO2) released during digestion was analyzed
+for carbon and oxygen isotope composition. Carbonate reference
+materials, including NBS 18 and NBS 19, were measured during the
+instrument run and used for isotope normalization. Carrara was
+also included as a reference material.
+
+# Value of the data
+
+- The dataset provides measurements of CO2 yield and carbon and
+  oxygen isotope values for rhodochrosite reacted at 72 °C.
+
+- The two grain-size fractions allow users to compare digestion
+  behaviour for fine and coarse samples.
+
+- The different reaction durations allow users to examine how CO2
+  yield and measured isotope values change over time.
+
+- The reference-material measurements provide information for
+  assessing the analytical performance of the instrument run.
